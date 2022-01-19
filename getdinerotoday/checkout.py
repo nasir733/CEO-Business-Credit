@@ -200,5 +200,5 @@ def remove(request):
 def charge(request):
     if request.method == 'POST':
         StripeService.charge_card(request.POST['stripeToken'], request.POST['amount'],
-                                  'CEO Business Credit Service Charge')
+                                  'Get Dinero Today Service Charge')
         return render(request, 'checkout/checkout.html', {'amount': request.POST['amount']})

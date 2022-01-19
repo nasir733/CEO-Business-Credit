@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='subdomain',
             name='aboutus_text',
-            field=models.TextField(default='CEO Business Credit offers a wide range of services. Which include getting clients loans, building business credit, $1,500 in free marketing, business credit course, autodialer, website builder and much more. Our business builder program helps you with each step of the business credit building process.', null=True, verbose_name='About Us text'),
+            field=models.TextField(default='Get Dinero Today offers a wide range of services. Which include getting clients loans, building business credit, $1,500 in free marketing, business credit course, autodialer, website builder and much more. Our business builder program helps you with each step of the business credit building process.', null=True, verbose_name='About Us text'),
         ),
         migrations.AlterField(
             model_name='subdomain',

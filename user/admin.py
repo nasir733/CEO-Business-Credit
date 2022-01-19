@@ -6,8 +6,8 @@ from import_export.admin import ExportMixin
 
 from .models import Portal, PortalGoal, Profile, VirtualCard, UserData, NewUserCredentials, ExternalResourceCredentials
 
-admin.site.site_header = "CEO Business Credit Admin"
-admin.site.site_title = "CEO Business Credit"
+admin.site.site_header = "Get Dinero Today Admin"
+admin.site.site_title = "Get Dinero Today"
 admin.site.index_title = "Administration"
 
 
